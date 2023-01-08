@@ -1,0 +1,66 @@
+.About{
+    text-align:center;
+}
+
+.body{
+    text-align: center;
+    padding-top: 15rem;
+}
+
+.sabonglogo{
+    width: 13rem;
+    margin-bottom: 3.5rem;
+}
+
+.vl {
+    border-left: 0.1rem solid black;
+    height: 15vh;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.bandIntro{
+    margin-top: 3rem;
+    margin-bottom:3rem;
+}
+.bandIntro p{ 
+    font-size: 1.3rem;
+    line-height:1.7rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bandIntro p{
+        font-size: 1rem;
+        line-height:1.2rem;
+    }
+    .sabonglogo{
+        width: 7rem;
+        margin-bottom: 2rem;
+    }
+    .vl{
+        height: 11vh;
+    }
+}
+@media screen  and (max-width: 800px){
+    .body{
+        padding-top: 10rem;
+    }
+    .sabonglogo{
+        width: 8rem;
+        margin-bottom: 2rem;
+    }
+    .vl{
+        height: 10vh;
+    }
+    .bandIntro{
+        width: 80vw;
+        position: relative;
+        left: 10%;
+    }
+    .bandIntro p{
+        font-size: 0.8rem;
+        line-height:0.9rem;
+    }
+
+}
