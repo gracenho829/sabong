@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Animate, AnimateKeyframes, AnimateGroup } from "react-simple-animate";
 import logo from '../resources/sabonglp.png';
 import '../App.css';
 
