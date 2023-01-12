@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import "../css/slick-theme.css"; 
+import "../css/slick.css";
+import sarang from "../resources/members/sarang.png"
+import pin from "../resources/pin.png"
 
 export default class AsNavFor extends Component {
   constructor(props) {
@@ -18,40 +22,56 @@ export default class AsNavFor extends Component {
   }
 
   render() {
+    const settings = {
+      className: "center",
+      centerMode: true,
+      infinite: true,
+      centerPadding: "60px",
+      slidesToShow: 3,
+      speed: 500
+    };
+    const singleSettings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    };
     return (
-      <div>
-        <h2>Slider Syncing (AsNavFor)</h2>
-        <h4>First Slider</h4>
+      <div className = "sliderDiv">
         <Slider
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
+          {...settings}
         >
-          <div>
-            <h3>1</h3>
+          <div className="memberImage">
+            <img src={sarang} alt="sarang"></img>
           </div>
-          <div>
+          <div className="memberImage">
             <h3>2</h3>
           </div>
-          <div>
+          <div className="memberImage">
             <h3>3</h3>
           </div>
-          <div>
+          <div className="memberImage">
             <h3>4</h3>
           </div>
-          <div>
+          <div className="memberImage">
             <h3>5</h3>
           </div>
-          <div>
+          <div className="memberImage">
             <h3>6</h3>
           </div>
         </Slider>
+        <img src={pin} style={{width:"20vw", marginBottom: "5rem", marginTop: "2rem"}}alt="pin"/>
         <h4>Second Slider</h4>
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
-          slidesToShow={3}
+          slidesToShow={1}
           swipeToSlide={true}
           focusOnSelect={true}
+          {...singleSettings}
         >
           <div>
             <h3>1</h3>
