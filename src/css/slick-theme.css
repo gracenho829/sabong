@@ -202,3 +202,7 @@
     opacity: .75;
     color: black;
 }
+
+img.slick-active{
+    height: 10rem !important;
+}

@@ -12,7 +12,7 @@
 
 .sabonglogo{
     width: 13rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .vl {
@@ -25,16 +25,21 @@
 
 .bandIntro{
     margin-top: 3rem;
-    margin-bottom:3rem;
+    margin-bottom:7.5rem;
 }
 .bandIntro p{ 
-    font-size: 1.3rem;
-    line-height:1.7rem;
+    font-size: 0.8rem;
+    line-height:1.5rem;
+}
+
+.bandIntro s{
+    font-size: 0.8rem;
+    line-height:1.5rem;
 }
 
 @media screen and (max-width: 1000px){
     .bandIntro p{
-        font-size: 1rem;
+        font-size: 0.7rem;
         line-height:1.2rem;
     }
     .sabonglogo{
@@ -45,6 +50,14 @@
         height: 11vh;
     }
 }
+
+.wrapperNav{
+    margin-top: 15vh;
+    max-width: 100vw;
+    width: 100%;
+    overflow:hidden;
+}
+
 @media screen  and (max-width: 800px){
     .body{
         padding-top: 10rem;
@@ -75,4 +88,35 @@
     100% {
         opacity: 1;
      }
+}
+
+.slick-slide img{
+    width: 25rem;
+    filter: brightness(50%);
+}
+.slick-slide img:focus{
+    outline:none;
+}
+.slick-current img{
+    width:30rem;
+    z-index: 1000;
+    filter: brightness(100%);
+}
+
+.slick-prev{
+    left: 100px !important;
+}
+
+.slick-next{
+    right: 100px !important;
+}
+
+.slick-prev, .slick-next{
+    color: green !important;
+    z-index: 2;
+    width: 50px !important;
+}
+
+html{
+    overflow-x : hidden;
 }
