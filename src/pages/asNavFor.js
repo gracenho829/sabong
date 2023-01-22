@@ -11,6 +11,14 @@ import junbeom from "../resources/members/junbeom.png"
 import junseok from "../resources/members/junseok.png"
 import sechan from "../resources/members/ssibal.png"
 import pin from "../resources/pin.png"
+//import member labels
+import sarangLabel from "../resources/members/sarangLabel.png";
+import baeggyuLabel from "../resources/members/baeggyuLabel.png"
+import hankyulLabel from "../resources/members/hankyulLabel.png"
+import hyunjinLabel from "../resources/members/hyunjinLabel.png"
+import junbeomLabel from "../resources/members/junbeomLabel.png"
+import junseokLabel from "../resources/members/junseokLabel.png"
+import sechanLabel from "../resources/members/sechanLabel.png"
 
 export default class AsNavFor extends Component {
   constructor(props) {
@@ -86,7 +94,7 @@ export default class AsNavFor extends Component {
             <div style={{margin: "auto", width: "60%"}}>
               <img src={sarang} alt="sarang" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Sarang Oh</h3><p>Vocal</p>
+              <img src={sarangLabel} alt="saranglabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               안녕하시렵니까. 오사랑입니다.<br></br>
@@ -102,12 +110,13 @@ export default class AsNavFor extends Component {
           <div style={{margin: "auto", width: "65%"}}>
               <img src={baeggyu} alt="baeggyu" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Baeggyu Kim</h3><p>Piano</p>
+              <img src={baeggyuLabel} alt="baeggyulabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               사봉에서 88개의 음을 소유한 뺘노 김백규입니다. <br></br>
               88개 중에 제가 쓰는 음은 단 18개도 안되지만, <br/>
-              18개의 음들을 잘 조합하여 국밥과 같은 진국의 요리를 선사하겠습니다. <br/>
+              18개의 음들을 잘 조합하여 국밥과 같은 <br/>
+              진국의 요리를 선사하겠습니다. <br/>
               그나저나 오늘 저랑 같이 국밥 한 그릇 하실래요?
               </p>
             </div>
