@@ -1,0 +1,61 @@
+.body{
+    text-align: center;
+    padding-top: 12rem;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.logo{
+    width: 10rem;
+    margin-bottom: 1rem;
+    position: relative;
+    top: -3rem;
+}
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+    width: 50%;
+}
+.tv{
+    width: 50vw;
+    position: absolute;
+    left: 53%;
+}
+
+a{
+   line-height: 2.5rem;
+   text-decoration:none;
+   color: black;
+}
+
+.songLink:hover{
+    color: #87B58E;
+    font-weight:800;
+    font-size: 1.1rem;
+}
+
+.songLink::selection{
+    color: #87B58E;
+    font-weight:700;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 800px){
+    .logo{
+        width: 7rem;
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .logo{
+        width: 5rem;
+        margin-bottom: 2rem;
+    }
+
+}

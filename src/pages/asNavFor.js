@@ -124,8 +124,8 @@ export default class AsNavFor extends Component {
           <div className = "memberInformation">
           <div style={{margin: "auto", width: "65%"}}>
               <img src={hankyul} alt="hankyul" style={{display:"inline-block", float:"left"}}></img>
-              <div style={{display:"inline-block", marginTop: "2rem"}}>
-              <h3 style={{float:"left"}}>Hankyul Lee</h3><p>Electric Guitar</p>
+              <div style={{display:"inline-block"}}>
+              <img src={hankyulLabel} alt="hankyullabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               일렉기타 치는 이한결이라고 합니다. <br/>
@@ -139,7 +139,7 @@ export default class AsNavFor extends Component {
           <div style={{margin: "auto", width: "65%"}}>
               <img src={hyunjin} alt="hyunjin" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Hyunjin Kim</h3><p>Drums</p>
+              <img src={hyunjinLabel} alt="hyunjinlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               안녕하세요, 사봉의 규칙준수를 감찰하는 '법대생' 입니다. <br></br>
@@ -156,7 +156,7 @@ export default class AsNavFor extends Component {
           <div style={{margin: "auto", width: "65%"}}>
               <img src={junbeom} alt="junbeom" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Junbeom Park</h3><p>Miscellaneous</p>
+              <img src={junbeomLabel} alt="junbeomlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               사봉은 들으셨나요? <br></br>
@@ -172,7 +172,7 @@ export default class AsNavFor extends Component {
           <div style={{margin: "auto", width: "65%"}}>
               <img src={sechan} alt="sechan" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Sechan Park</h3><p>Bass Guitar</p>
+              <img src={sechanLabel} alt="sechanlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               안녕하세요 사봉의 그루브를 만드는 리트리버 박세찬입니다. <br/>
@@ -187,7 +187,7 @@ export default class AsNavFor extends Component {
             <div className = "center">
               <img src={junseok} alt="junseok" style={{display:"inline-block", float:"left"}}></img>
               <div style={{display:"inline-block"}}>
-              <h3 style={{float:"left"}}>Junseok Park</h3><p>Acoustic Guitar</p>
+              <img src={junseokLabel} alt="junseoklabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               사봉에서 감미롭고 리드미컬한 어쿠스틱 기타를 칩니다.<br></br>
