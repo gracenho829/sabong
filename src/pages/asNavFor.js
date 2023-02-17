@@ -91,10 +91,10 @@ export default class AsNavFor extends Component {
           {...singleSettings}
         >
           <div className = "memberInformation">
-            <div style={{margin: "auto", width: "60%"}}>
-              <img src={sarang} alt="sarang" style={{display:"inline-block", float:"left"}}></img>
+            <img src={sarang} alt="sarang" style={{}}></img>
+            <div>
               <div style={{display:"inline-block"}}>
-              <img src={sarangLabel} alt="saranglabel" className="memberLabel" style={{width:"70%"}}/>
+                <img src={sarangLabel} alt="saranglabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               안녕하시렵니까. 오사랑입니다.<br></br>

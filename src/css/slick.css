@@ -126,9 +126,12 @@
 }
 
 .memberInformation{
+    display: flex !important;
     margin-top: 3rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
+    margin: auto;
+    width: 60%;
 }
 
 .memberInformation p{
