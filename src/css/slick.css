@@ -131,7 +131,9 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: auto;
-    width: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
 }
 
 .memberInformation p{
