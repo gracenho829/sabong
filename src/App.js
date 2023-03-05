@@ -25,7 +25,6 @@ function App() {
 }
 
 export default App;
-// emart : https://youtu.be/-OPhgNk2A5Y
 // HOME : https://youtu.be/4XKo7u_ebW8
 // look at me : https://youtu.be/K8dqs-SyW2M
 // it runs through me : https://youtu.be/js1UBxXK8Jg

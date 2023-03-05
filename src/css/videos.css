@@ -28,6 +28,17 @@
     left: 53%;
 }
 
+#videoFrame{
+    position: absolute;
+    float: right;
+    right: 9%;
+    top: 30%;
+    width: 34vw;
+    height: 27vw;
+     
+}
+
+
 a{
    line-height: 2.5rem;
    text-decoration:none;
@@ -45,6 +56,7 @@ a{
     font-weight:700;
     font-size: 1.1rem;
 }
+
 
 @media screen and (max-width: 800px){
     .logo{
