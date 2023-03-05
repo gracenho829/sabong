@@ -139,3 +139,13 @@
 .memberInformation p{
     font-size: 1.1rem;
 }
+
+.container{
+    margin-left: 4rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.memberLabel{
+    margin: auto;
+}

@@ -91,7 +91,7 @@ export default class AsNavFor extends Component {
           {...singleSettings}
         >
           <div className = "memberInformation">
-            <img src={sarang} alt="sarang" style={{}}></img>
+            <img src={sarang} alt="sarang"></img>
             <div>
               <div style={{display:"inline-block"}}>
                 <img src={sarangLabel} alt="saranglabel" className="memberLabel" style={{width:"70%"}}/>
@@ -107,10 +107,10 @@ export default class AsNavFor extends Component {
             </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-              <img src={baeggyu} alt="baeggyu" style={{display:"inline-block", float:"left"}}></img>
+              <img src={baeggyu} alt="baeggyu"></img>
+              <div>
               <div style={{display:"inline-block"}}>
-              <img src={baeggyuLabel} alt="baeggyulabel" className="memberLabel" style={{width:"70%"}}/>
+                <img src={baeggyuLabel} alt="baeggyulabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
               <p style={{lineHeight:"1.4rem"}}>
               사봉에서 88개의 음을 소유한 뺘노 김백규입니다. <br></br>
@@ -119,11 +119,11 @@ export default class AsNavFor extends Component {
               진국의 요리를 선사하겠습니다. <br/>
               그나저나 오늘 저랑 같이 국밥 한 그릇 하실래요?
               </p>
-            </div>
+              </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-              <img src={hankyul} alt="hankyul" style={{display:"inline-block", float:"left"}}></img>
+              <img src={hankyul} alt="hankyul"></img>
+              <div>
               <div style={{display:"inline-block"}}>
               <img src={hankyulLabel} alt="hankyullabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
@@ -133,11 +133,11 @@ export default class AsNavFor extends Component {
               조용하고 미간 찌푸려지는 음악 좋아합니다. <br/>
               SABONG에서 같이 미간 찌푸리고 가시죠 여러분
               </p>
-            </div>
+              </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-              <img src={hyunjin} alt="hyunjin" style={{display:"inline-block", float:"left"}}></img>
+              <img src={hyunjin} alt="hyunjin"></img>
+              <div>
               <div style={{display:"inline-block"}}>
               <img src={hyunjinLabel} alt="hyunjinlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
@@ -150,11 +150,11 @@ export default class AsNavFor extends Component {
               감사합니다. <br></br><br></br>
               김현진 드림
               </p>
-            </div>
+              </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-              <img src={junbeom} alt="junbeom" style={{display:"inline-block", float:"left"}}></img>
+              <img src={junbeom} alt="junbeom"></img>
+              <div>
               <div style={{display:"inline-block"}}>
               <img src={junbeomLabel} alt="junbeomlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
@@ -166,11 +166,11 @@ export default class AsNavFor extends Component {
               악기가 될 만한건 다 동원해서 만족시켜드리는 봉사자가 되겠습니다. <br></br>
               반갑습니다 이것저것 다하는 박준범입니다.
               </p>
-            </div>
+              </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-              <img src={sechan} alt="sechan" style={{display:"inline-block", float:"left"}}></img>
+              <img src={sechan} alt="sechan" ></img>
+              <div>
               <div style={{display:"inline-block"}}>
               <img src={sechanLabel} alt="sechanlabel" className="memberLabel" style={{width:"70%"}}/>
               </div>
@@ -180,23 +180,21 @@ export default class AsNavFor extends Component {
               혹시 제게 "왜 기타줄이 6개가 아니에요?" 라고 물으신다면 <br/>
               개물림 사고를 당하실 수 있으니 조심하세요★ 
               </p>
-            </div>
+              </div>
           </div>
           <div className = "memberInformation">
-          <div style={{margin: "auto", width: "65%"}}>
-            <div className = "center">
-              <img src={junseok} alt="junseok" style={{display:"inline-block", float:"left"}}></img>
-              <div style={{display:"inline-block"}}>
-              <img src={junseokLabel} alt="junseoklabel" className="memberLabel" style={{width:"70%"}}/>
+              <img src={junseok} alt="junseok"></img>
+              <div className = "container">
+                <div style={{display:"inline-block"}}>
+                  <img src={junseokLabel} alt="junseoklabel" className="memberLabel" style={{width:"70%"}}/>
+                </div>
+                <p style={{lineHeight:"1.4rem"}}>
+                사봉에서 감미롭고 리드미컬한 어쿠스틱 기타를 칩니다.<br></br>
+                곡에서 있는 듯 없는 듯 치며 조화로움을 돕습니다. <br></br>
+                또 다른 역할로선 사봉 밴드의 최연장자로서 <br></br>
+                팀 내 기강과 질서를 바로잡는 역할을 도맡아서 하고 있습니다. 
+                </p>
               </div>
-              <p style={{lineHeight:"1.4rem"}}>
-              사봉에서 감미롭고 리드미컬한 어쿠스틱 기타를 칩니다.<br></br>
-              곡에서 있는 듯 없는 듯 치며 조화로움을 돕습니다. <br></br>
-              또 다른 역할로선 사봉 밴드의 최연장자로서 <br></br>
-              팀 내 기강과 질서를 바로잡는 역할을 도맡아서 하고 있습니다. 
-              </p>
-            </div>
-            </div>
           </div>
         </Slider>
       </div>
